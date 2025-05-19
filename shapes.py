@@ -96,39 +96,39 @@
 #         bob.forward(100)
 #         bob.left(90)
 
-# import turtle
+import turtle
 
-# bob = turtle.Turtle()
+bob = turtle.Turtle()
 
-# while True:
-#  print("What do you want to do")
-#  print("Change color")
-#  print("Draw a shape")
-#  choice = input("What is your choice?")
+while True:
+ print("What do you want to do")
+ print("Change color")
+ print("Draw a shape")
+ choice = input("What is your choice?")
 
-#  if choice == "Change color":
-#      color = input("what color do you want")
-#      bob.color(color)
+ if choice == "Change color":
+     color = input("what color do you want")
+     bob.color(color)
 
-#  if choice == "Draw a shape":
-#   print("possible shapes are:")
-#   print("Circle")
-#   print("Triangle")
-#   print("Square")
-#   choice = input("What shape do you want ")
+ if choice == "Draw a shape":
+  print("possible shapes are:")
+  print("Circle")
+  print("Triangle")
+  print("Square")
+  choice = input("What shape do you want ")
 
-#  if choice == "Circle":
-#      bob.circle(50)
+ if choice == "Circle":
+     bob.circle(50)
 
-#  if choice == "Triangle":
-#     for side in range(3):
-#         bob.forward(100)
-#         bob.left(120)
+ if choice == "Triangle":
+    for side in range(3):
+        bob.forward(100)
+        bob.left(120)
 
-#  if choice == "Square":
-#     for side in range(4):
-#         bob.forward(100)
-#         bob.left(90)
+ if choice == "Square":
+    for side in range(4):
+        bob.forward(100)
+        bob.left(90)
 
 
 
